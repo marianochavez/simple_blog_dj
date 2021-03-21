@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+{% load static %}
+<!-- Page Header -->
+{% block phimage %}
+    {{post.imagen}}
+{% endblock phimage %}
+  
+{% block phtitle %}
+  {{post.titulo}}
+{% endblock phtitle %}
+
+{% block phsubtitle %}
+    <h2>{{post.descripcion}}</h2>
+    Categoria {{post.categoria}} - {{post.fecha_creacion}}
+  
+{% endblock phsubtitle %}
+
+
+{% block search %}
+{% endblock search %}
+  
+
+{% block content %}
+  
+  {{post.contenido | safe}}
+
+{% endblock content %}
+  

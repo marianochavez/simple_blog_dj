@@ -1,0 +1,7 @@
+dependencias usadas:
+django import export
+Django CKEditor
+
+local.py va a ser para trabajar con la db local.py
+y production para cuando este en funcionamiento 
+la app
